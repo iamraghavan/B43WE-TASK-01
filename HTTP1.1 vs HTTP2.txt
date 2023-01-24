@@ -1,0 +1,24 @@
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication for the World Wide Web. 
+It defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands.
+
+Over the years, HTTP has undergone several revisions to improve its performance and functionality. 
+The two most widely used versions of HTTP in current use are HTTP/1.1 and HTTP/2.
+
+HTTP/1.1 is the previous version of HTTP and has been in use since 1999. 
+It is a text-based protocol and uses a single, persistent connection for all requests and responses. 
+It also has a limitation of handling only one request at a time, which leads to latency issues and slow page loading times.
+
+On the other hand, HTTP/2 is the latest version of HTTP and was released in 2015. 
+It is a binary protocol, which means it uses a more efficient format for transferring data. 
+It also uses multiplexing, which allows the browser to send multiple requests and receive multiple responses at the same time over a single connection. This feature improves the performance of web pages by reducing latency and allows for faster page loading times.
+
+HTTP/2 also includes other features such as server push, 
+which allows the server to proactively send resources to the browser, and header compression, 
+which reduces the size of headers in HTTP requests and responses.
+
+In summary, HTTP/1.1 is a text-based protocol that uses a single connection for requests and responses and can handle only one request at a time, 
+while HTTP/2 is a binary protocol that uses multiplexing, server push, and header compression to improve performance and reduce latency. 
+The latest version of HTTP is always recommended for better performance and functionality.
+
+It is important to note that to take advantage of the benefits of HTTP/2, a website must be served over 
+HTTPS (HTTP Secure) as it is not supported over unencrypted HTTP.

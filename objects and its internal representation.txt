@@ -1,0 +1,31 @@
+Javascript, as a programming language, provides a built-in support for working with objects. 
+Objects in Javascript are used to store collections of data, and they can be used to model real-world objects or entities. In Javascript, an object is an unordered collection of properties, 
+each of which has a name and a value.
+
+In Javascript, objects are represented internally as a hash table, 
+also known as a dictionary or associative array. 
+A hash table is a data structure that uses a hash function to map keys to values. 
+In the case of Javascript objects, the keys are the property names, 
+and the values are the property values.
+
+When an object is created, the properties and their values are added to the hash table. 
+When a property of an object is accessed, the hash table is searched for the key that corresponds to the property name. 
+The corresponding value is then returned.
+
+Javascript objects also have a prototype, which is an object that is used as a template for creating new objects. When a property is accessed on an object, Javascript first checks the object's own properties. If the property is not found, it then checks the object's prototype, 
+and the process continues until the property is found or the prototype chain ends.
+
+Objects in Javascript are also mutable, which means their properties can be added, 
+modified, or removed at any time. When a property is added or modified, 
+the hash table is updated accordingly.
+
+In conclusion, objects in Javascript are collections of properties, 
+each of which has a name and a value. They are internally represented as a hash table, 
+and they have a prototype that is used as a template for creating new objects. Additionally, 
+objects in javascript are mutable, meaning their properties can be added, modified, 
+or removed at any time. Understanding the internal representation of objects in Javascript can help developers to write more efficient and performant code.
+
+
+
+
+
